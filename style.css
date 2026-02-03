@@ -1,1 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #0a0a23;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00d4ff;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #0a0a23, #1f1f5f);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00d4ff;
+    color: #0a0a23;
+}
+
+.hero button:hover {
+    background-color: #00b5d9;
+}
+
+/* Sections */
+.section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Courses */
+.course-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #0a0a23;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
